@@ -156,6 +156,28 @@ a {
   margin-right: .5rem;
   align-self: center;
 }
+@media (max-width: 600px){
+    body{
+        align-items: center;
+    }
+    .article-card{
+        flex-direction: column;
+        width: 84%;
+        margin-bottom: 15rem;
+    }
+    .img-box{
+        width: 100%;
+    }
+    .img-box >img{
+        border-radius: 0;
+        border-radius: .6rem .6rem 0 0;
+    }
+    .article-content{
+        width: 100%;
+        border-radius: 0 0 .6rem .6rem;
+               
+    }
+}
 .attribution {
   font-size: 11px;
   text-align: center;
